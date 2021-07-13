@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.globatrides.customer"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name="com.globatrides.customer.constants.BaseApp"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:allowBackup="true"
+
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        tools:replace="android:supportsRtl,android:allowBackup">
+
+        <activity android:name="com.globatrides.customer.activity.PromoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+
+        <activity android:name="com.globatrides.customer.activity.DetailOrderActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity android:name="com.globatrides.customer.gmap.activity.DetailOrderGmapActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.activity.MapsMerchantActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.activity.DetailMerchantActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.activity.PicklocationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.gmap.activity.PicklocationGmapActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.activity.AllMerchantActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.gmap.activity.AllMerchantGmapActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.activity.AllNewsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.activity.WalletActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.activity.ChatActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.globatrides.customer.utils.api.service.MessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.globatrides.customer.activity.RateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.activity.CreditcardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+
+        <activity
+            android:name="com.globatrides.customer.activity.StripePaymentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.activity.WithdrawActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.activity.SplashActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.globatrides.customer.activity.IntroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.globatrides.customer.activity.NewsDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.globatrides.customer.activity.TopupSaldoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.activity.RideCarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.globatrides.customer.gmap.activity.RideCarGmapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.globatrides.customer.activity.RentCarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.globatrides.customer.gmap.activity.RentCarGmapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.globatrides.customer.activity.SendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.globatrides.customer.gmap.activity.SendGmapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.globatrides.customer.activity.SendDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.globatrides.customer.activity.ProgressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.globatrides.customer.activity.PrivacyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/noActionBar" />
+        <activity
+            android:name="com.globatrides.customer.activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/noActionBar" />
+        <activity
+            android:name="com.globatrides.customer.activity.EditProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/noActionBar" />
+        <activity
+            android:name="com.globatrides.customer.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.activity.ForgotPassActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.activity.ChangepassActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.globatrides.customer.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.globatrides.customer.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

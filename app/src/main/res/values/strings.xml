@@ -1,0 +1,310 @@
+<resources>
+    <string name="app_name">Globatrides</string>
+    <string name="app_jargon">Any service you need</string>
+
+    <!--mapbox_access_token-->
+    <string name="mapbox_access_token">pk.eyJ1IjoiZ2xvYmF0MSIsImEiOiJja3A4ZHZyNG0wODBwMnlvZ3h1NWlrY3U4In0.oaXmKKGfnxVCJW993UiUEA</string>
+    <!--google maps key-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyAkesvsT-dqKffIEFCH1FUDS545cIKOSMc
+    </string>
+
+    ////////
+    <string name="introtext1">Sign up now!</string>
+    <string name="introdesc1">Where will you go today? We are ready to drive you anywhere, and at anytime!</string>
+    <string name="introtext2">Trackable</string>
+    <string name="introdesc2">Keep track of your packages and driver, all in real-time.</string>
+    <string name="introtext3">Just Relax</string>
+    <string name="introdesc3">You can stay relax while we pick up and drop off your package, all within hours!</string>
+
+    <string name="exit">Are you sure you want to exit the application?</string>
+    <string name="yes">YES!</string>
+    <string name="no">NO</string>
+    <string name="email">Email</string>
+    <string name="verifydesc">We send a verification code to the number</string>
+    <string name="norecieve">I did not receive the code!</string>
+    <string name="resend">Resend Code</string>
+    <string name="confirm">Confirm</string>
+    <string name="privacy">By signing in, you agree to the  <![CDATA[<b><font color=#7cc2f9>terms and conditions</font></b>]]></string>
+    <string name="text_with_bullet">\u2022</string>
+    <string name="lupa">Forgot Password?</string>
+    <string name="button_signIn">Login</string>
+    <string name="button_signUp"> Register</string>
+    <string name="button_dontHaveAccount">Dont Have Account? </string>
+    <string name="wrongnumber">Wrong phone number format </string>
+    <string name="phoneemailwrong">wrong phone or password</string>
+    <string name="phonepass">Phone and Password cannot be empty!</string>
+    <string name="phoneempty">Phone cannot be empty!</string>
+    <string name="passempty">Password cannot be empty!</string>
+    <string name="emailempty">Email cannot be empty!</string>
+
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_birthday">Birthday</string>
+    <string name="hint_password">Password</string>
+    <string name="website">Website</string>
+    <string name="download">Download</string>
+    <string name="all">All</string>
+    <string name="copy">Copy</string>
+    <string name="add_note">Add notes++</string>
+
+    <string name="menu_home">home</string>
+    <string name="menu_chat">chat</string>
+    <string name="menu_order">Order</string>
+    <string name="menu_favourite">Favourite</string>
+    <string name="menu_profile">Profile</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="getstarted">Get Started</string>
+
+    <string name="ride_location">Location</string>
+    <string name="ride_destination">Destination</string>
+
+    <string name="ride_note">Notes</string>
+
+    <string name="ride_setPickUp">Set PickUp</string>
+    <string name="ride_setDestination">Set Destination</string>
+    <string name="text_order">Order</string>
+    <string name="waiting_desc">We are searching for the closest driver</string>
+    <string name="waiting_pleaseWait">Please Wait....</string>
+    <string name="text_noInternet">No internet Access</string>
+
+    <string name="notification_cancel">Order has been canceled</string>
+    <string name="notification_start">to the destination location</string>
+    <string name="notification_accept">you found a driver</string>
+    <string name="notification_finish">thank you for using our services</string>
+    <string name="topup">Topup</string>
+    <string name="withdraw">withdraw</string>
+    <string name="promo">Promo</string>
+    <string name="detail">Detail</string>
+
+    <string name="nodata"> No data!</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="status">Status</string>
+
+    <!--activity_all_berita-->
+    <string name="news">News</string>
+
+    <!--activity_all_merchant-->
+    <string name="your_location">Your Location</string>
+    <string name="loading_loc">Loading....</string>
+    <string name="no_merchant">NO MERCHANT!</string>
+
+    <!--activity_changepassword-->
+    <string name="old_pass_hint">Old Password</string>
+    <string name="new_pass_hint">New Password</string>
+
+    <!--activity_chat-->
+    <string name="typing">Typing…</string>
+    <string name="chat_hint">Send Message Here</string>
+
+    <!--activity_creditcard-->
+    <string name="holder_name">Holder Name</string>
+    <string name="card_exp">Exp. date</string>
+    <string name="month_date">MM/YY</string>
+    <string name="cvc_hint">CVC</string>
+
+    <!--activity_detail_merchant-->
+    <string name="open_hour">Open Hour</string>
+    <string name="menu">Menu</string>
+    <string name="detail_order">Detail Order</string>
+
+    <!--activity_detail_order-->
+    <string name="order">Order</string>
+    <string name="location">Location</string>
+    <string name="order_detail">Order Detail</string>
+    <string name="payment_detail">Payment Detail</string>
+    <string name="order_price">Order Price</string>
+    <string name="delivery_fee">Delivery Fee</string>
+    <string name="discount">Discount</string>
+    <string name="total">Total</string>
+    <string name="promo_code">Promo Code</string>
+    <string name="use">Use</string>
+    <string name="promocode_unvalaible">Promo code not available!</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="wallet">WALLET </string>
+    <string name="with_wallet">With wallet</string>
+    <string name="cash">CASH </string>
+    <string name="with_cash">Pay with cash</string>
+    <string name="promocode_hint">Have promo code?</string>
+
+    <!--activity_editprofile-->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="default_phonecode">+234</string>
+
+    <!--activity_picklocation-->
+    <string name="add_location">Add Location</string>
+    <string name="search_loc">Search Location</string>
+    <string name="input_loc">Add your location</string>
+
+    <!--activity_privacy-->
+    <string name="privacy_text">Privacy</string>
+
+    <!--activity_rate-->
+    <string name="give_rate">Please Rate Our Driver</string>
+    <string name="comment">Comment..</string>
+
+    <!--activity_register-->
+    <string name="register">Register</string>
+    <string name="login_policy">By registering you have agreed to the applicable terms and conditions</string>
+
+    <!--activity_rent-->
+    <string name="set_loc">Set Location</string>
+    <string name="duration">Duration</string>
+    <string name="est_time">Estimate Time</string>
+    <string name="price">Price</string>
+
+    <!--activity_ride-->
+    <string name="send_detail">Send Detail</string>
+    <string name="item">Item</string>
+    <string name="sender_name">Sender Name</string>
+    <string name="call">Call</string>
+    <string name="receiver_name">Receiver Name</string>
+    <string name="distance">Distance (KM)</string>
+
+    <!--activity_send-->
+    <string name="next">Next</string>
+
+    <!--activity_send_detail-->
+    <string name="item_detail">Item Detail</string>
+    <string name="document">Document</string>
+    <string name="fashion">Fashion</string>
+    <string name="box">Box</string>
+    <string name="other">Other</string>
+    <string name="sender_detail">Sender Detail</string>
+    <string name="receiver_detail">Receiver Detail</string>
+    <string name="send_hint">What do you want to send?</string>
+
+    <!--activity_send_detail-->
+    <string name="process_payment">Processing Payment</string>
+
+    <!--activity_topup-->
+    <string name="nominal">Nominal:</string>
+    <string name="creditcard">Credit Card</string>
+    <string name="creditcard_desc">Topup with Master Card/VISA/JCB/Discover/Diners Club or American Express</string>
+    <string name="bank_transfer">BANK TRANSFER</string>
+    <string name="banktransfer_desc">Topup with Manual Bank Transfer</string>
+    <string name="paypal">PAYPAL</string>
+    <string name="paypal_desc">Topup with Paypal</string>
+    <string name="payumoney">PAYUMONEY</string>
+    <string name="payumoney_desc">Topup with PayuMoney</string>
+
+    <!--activity_withdraw-->
+    <string name="wallet_text">Wallet</string>
+    <string name="bank_list">Bank List</string>
+    <string name="amount_hint">Amount</string>
+    <string name="bank_hint">Bank</string>
+    <string name="holder_hint">Account holder name</string>
+    <string name="accountnuber_hint">Account number</string>
+
+    <!--fragment_enablelocation-->
+    <string name="enablelocation">Enable Location</string>
+    <string name="enableloc_desc">You need to enable location to use this application</string>
+
+    <!--fragment_home-->
+    <string name="promo_thisweek">Promo This Week</string>
+    <string name="nearby_merchant">Nearby Merchant</string>
+    <string name="latest_news">Latest News</string>
+    <string name="show_all">Show All</string>
+    <string name="customer_reviews">What Customer Say?</string>
+    <string name="balance">Balance</string>
+
+    <!--fragment_profile-->
+    <string name="change_password">Change Password</string>
+    <string name="aboutus">About Us</string>
+    <string name="share_app">Share App</string>
+    <string name="rate_app">Rate App</string>
+    <string name="logout">Logout</string>
+    <string name="your_message">Your message</string>
+
+    <!--java string-->
+    <string name="oldpass_toast">Please input your old password</string>
+    <string name="newpass_toast">Please input your new password!</string>
+    <string name="recording">Recording…</string>
+    <string name="mic_btn">Hold Mic Button to Record</string>
+    <string name="stop_record">Stop Recording…</string>
+    <string name="send_image">Send Image.......</string>
+    <string name="download_error">download error</string>
+    <string name="delete_message">Delete this message</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="tap_again">Tp again</string>
+    <string name="campermission_denied">camera permission denied</string>
+    <string name="cardnumber_toast">card number can\'t be empty!</string>
+    <string name="holdername_toast">holder name can\'t be empty!</string>
+    <string name="expdate_toast">holder name can\'t be empty!</string>
+    <string name="cvc_toast">CVC can\'t be empty!</string>
+    <string name="error_message">there is an error!</string>
+    <string name="check_carddata">error, please check your card data!</string>
+    <string name="error">error!</string>
+    <string name="close_merchant">merchant are closing!</string>
+    <string name="open_hours">"Open Hours: "</string>
+    <string name="deleteorder_toast">Delete current order(s)?</string>
+    <string name="deleteorder_confimation">Leaving this page will cause you lose all the order you\'ve made. Continue?</string>
+    <string name="wait">Wait</string>
+    <string name="promocode_toast">Promo code can\'t be empty!</string>
+    <string name="distance_limit">destination too far away!</string>
+    <string name="picklocation_toast">Please select your location.</string>
+    <string name="initialorder_toast">Please order at least 1 item.</string>
+    <string name="wait_moment">Please wait a moment…</string>
+    <string name="nodriver_toast">no driver around you!</string>
+    <string name="nofound_driver">Driver not found!</string>
+    <string name="accproblem_toast">Your account has a problem, please contact customer service!</string>
+    <string name="name_toast">Name can\'t be empty</string>
+    <string name="dob_toast">birthday can\'t be empty!</string>
+    <string name="emailformat_toast">wrong email format!</string>
+    <string name="emial_send">email send!</string>
+    <string name="unregis_email">Email Not Registered</string>
+    <string name="wrong_code">Wrong Code!</string>
+    <string name="limit_request_number">Too Many Requests, please try with other number</string>
+    <string name="limit_request_phonenumber">Too Many Requests, please try with other phone number!</string>
+    <string name="verify_toast">verification code can\'t be empty!</string>
+    <string name="loc_accuracy">On Location in High Accuracy</string>
+    <string name="remove_fav">Remove from favorite</string>
+    <string name="add_fav">Add to favorite</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="cancel_order_confirmation">Do you want to cancel this order?</string>
+    <string name="uncancel_order">You cannot cancel the order, the trip has already begun!</string>
+    <string name="total_wallet">Total (Wallet)</string>
+    <string name="total_cash">Total (Cash)</string>
+    <string name="call_driver">Call Driver</string>
+    <string name="call_sender">Call Sender</string>
+    <string name="call_receiver">Call Receiver</string>
+    <string name="driver_deliver">driver delivers the order</string>
+    <string name="driver_buying">the driver is buying an order</string>
+    <string name="order_cancel">Order Canceled!</string>
+    <string name="failed">Failed!</string>
+    <string name="photo_toast">please add photo!</string>
+    <string name="recheck_phone">Please enter phone correctly</string>
+    <string name="verify_failed">Failed to verify!</string>
+    <string name="enter_verifycode">Enter your verification code!</string>
+    <string name="enter_loc">Location can\'t be empty!</string>
+    <string name="grant_permission">Please Grant permission</string>
+    <string name="sendername_toast">Sender name can\'t be empty!</string>
+    <string name="senderphone_toast">Sender phone can\'t be empty!</string>
+    <string name="receivername_toast">Receiver can\'t be empty!</string>
+    <string name="receiverphone_toast">Receiver phone can\'t be empty!</string>
+    <string name="payment_failed">Payment Failed!</string>
+    <string name="nominal_toast">nominal can\'t be empty!</string>
+    <string name="accdata_error">error, please check your account data!</string>
+    <string name="amount_toast">amount can\'t be empty!</string>
+    <string name="noteniugh_balance">your balance is no enough!</string>
+    <string name="bank_toast">bank can\'t be empty!</string>
+    <string name="accnumber_toast">account number can\'t be empty!</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="open">Open</string>
+    <string name="close_store">Close</string>
+    <string name="seen_at">"Seen at "</string>
+    <string name="sent">Sent</string>
+    <string name="undeliver_message">"Not delivered. "</string>
+    <string name="deleted_by">This message is deleted by </string>
+    <string name="copied">Copied!</string>
+    <string name="money_out">Money Out</string>
+    <string name="pending">Pending</string>
+    <string name="canceled">Canceled</string>
+    <string name="money_order">"Order "</string>
+    <string name="money_in">Money In</string>
+
+</resources>

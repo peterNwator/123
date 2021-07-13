@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "432082548876",
+    "firebase_url": "https://globat-rides-default-rtdb.firebaseio.com",
+    "project_id": "globat-rides",
+    "storage_bucket": "globat-rides.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432082548876:android:0127280eed146e150363a9",
+        "android_client_info": {
+          "package_name": "com.globatrides.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432082548876-adevb5narn9h96ept7c5adp4nv45bfse.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.globatrides.customer",
+            "certificate_hash": "334e27b7927e2accab1c94c22e9cb90ea3f6520d"
+          }
+        },
+        {
+          "client_id": "432082548876-sf5e33t24ck70sh15bl6rk8s9mvc0jjf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.globatrides.customer",
+            "certificate_hash": "62f23ebe4b1495e76cdc5645f8c42d130432dce1"
+          }
+        },
+        {
+          "client_id": "432082548876-huv5omqguocpc4r2gg0r28104fmbemp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkbW3qj37Mn42VRdsXMKAeGBejsEwwV3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432082548876-huv5omqguocpc4r2gg0r28104fmbemp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
